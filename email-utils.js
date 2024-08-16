@@ -24,4 +24,4 @@ async function sendEmail({ to, subject, text }) {
   }
 }
 
-export default { sendEmail };
+module.exports = { sendEmail };
