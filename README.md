@@ -50,6 +50,11 @@ Error (500 Internal Server Error): If there was a problem sending the email, you
   "message": "Failed to send email"
 }
 
+In hello-world-client/index.js,
+
+run: node index.js
+
+Change email id, urgency - high or medium or low, activity - active or inactive.
 
 
 
