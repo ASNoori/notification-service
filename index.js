@@ -10,7 +10,8 @@ app.post("/notify", async (req, res) => {
   try {
     let delay = 0;
     if (urgency === "high" && activity === "inactive") {
-      delay = 30 * 60 * 1000; // 30 minutes
+    //   delay = 30 * 60 * 1000; // 30 minutes
+    delay= 30 * 60 * 1000;
     } else if (urgency === "medium") {
       delay = 60 * 60 * 1000; // 1 hour
     } else if (urgency === "low") {
